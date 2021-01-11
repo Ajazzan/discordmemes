@@ -198,7 +198,34 @@ function deTodoEspañol() {
     return memes[Math.floor(Math.random() * memes.length)];
 
 };
-
+function randomgifs() {
+    let randomgif = [
+   "https://media.tenor.com/images/d4d6d9c972e197db8546284a09eeafe5/tenor.gif",
+   "https://media.tenor.com/images/a4a9a017976c626d911555738457175c/tenor.gif",
+   "https://media.tenor.com/images/cfdecc260019b35cdb4620695b41cf94/tenor.gif",
+   "https://media.tenor.com/images/c622bb543a147a75389d34701e5915f5/tenor.gif",
+   "https://media.tenor.com/images/429ac7ee47db40e6a1d5086ee51c96c3/tenor.gif",
+   "https://media.tenor.com/images/1f9ad77785c6c38a9a8b55a0420467b6/tenor.gif",
+   "https://media.tenor.com/images/a597d0df1d50d0922cffde500d5b9d65/tenor.gif",
+   "https://media.tenor.com/images/d2e4481cdf312c43a7b679db6cef37c7/tenor.gif",
+   "https://media.tenor.com/images/6bb186a2feb41f215bb7347d33caae08/tenor.gif",
+   "https://media.tenor.com/images/abad1c1ddd38f0c7901cc6aa18bc8768/tenor.gif",
+   "https://media1.tenor.com/images/3a8c2b86e9938ede7b202490e3102929/tenor.gif?itemid=12904194",
+   "https://media.tenor.com/images/7afa07cd68ad94470f3e9c5b5efa98f4/tenor.gif",
+   "https://media.tenor.com/images/a597d0df1d50d0922cffde500d5b9d65/tenor.gif",
+   "https://media.tenor.com/images/19a0a760560b80f774e4df29db60aff6/tenor.gif",
+   "https://media.tenor.com/images/84460dec9a28e6ff85a4395512d6e68f/tenor.gif",
+   "https://media.tenor.com/images/ec9311ce3eef8987549a9833abe6265a/tenor.gif",
+   "https://media.tenor.com/images/f57cfc67871d9aa4c551ff5bb8b4f065/tenor.gif",
+   "https://media.tenor.com/images/903b512ee0cee4d219ac0c03a1f2293f/tenor.gif",
+   "https://media.tenor.com/images/68a7d14f76aa67432532a464fd7dbd48/tenor.gif"
+    ];
+     /**
+     * Gifs random 
+     * @returns {string}
+     */
+    return randomgif[Math.floor(Math.random) * randomgif.length];
+}
 function putin() {
     let putinMemes = [
         "https://cdn.discordapp.com/attachments/385837258768515083/796292183011098634/lego.mp4",
@@ -217,5 +244,6 @@ module.exports = {
     imagenesEspañol,
     videosEspañol,
     deTodoEspañol,
+    randomgifs,
     putin
 };
